@@ -1,0 +1,383 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Outfit', sans-serif;
+}
+
+#logo{   
+ position: absolute;
+ width: 54.55px;
+ height: 52px;
+ left: 30px;
+ top: 21px;
+}
+
+.mini{
+ position: absolute;
+ font-weight: 500px ;
+ width: 254px;
+ height: 40px;
+ left: 114.55px;
+ top: 27px;
+ font-family: 'Bruno Ace', cursive;
+ font-family: 'Instrument Serif', serif;
+ font-family: 'Inter', sans-serif;
+ font-family: 'Outfit', sans-serif;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 32px;
+ line-height: 40px;
+ color: #FE8A00;
+}
+
+#user{
+    
+    width: 23.33px;
+    height:25px;
+    left: 50px;
+    top: 25px;
+    margin: 35px;
+}
+
+.head{
+    position: absolute;
+    width: 100%;
+    height: 363.99px;
+    left: 0px;
+    top: 94.01px;  
+    background: #FE8A00;
+}
+
+#off{
+    position: absolute;
+    width: 367.91px;
+    height: 101.11px;
+    left: 548.52px;
+    top: 150px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.icon{
+    position: absolute;
+    width: 994.38px;
+    height: 327.89px;
+    left: 195.01px;
+    top: 5px;
+}
+.like-button {
+    z-index: 2;
+    color: gray;
+    font-size: 25px;
+    text-align: right;
+    cursor: pointer;
+    width: 99%; 
+    background: #FFFFFF;
+    border-radius: 21px;
+    border: none;
+}
+.fa-heart:focus{
+    left: 21.46%;
+    right: 77.43%;
+    top: 40.71%;
+    bottom: 58.32%;
+    color:  #FF1055;
+}
+
+#SM{
+    position: relative ;
+    width: 168.67px;
+    height: 36.4px;
+    left: 635px;
+    top: 350px;
+    bottom: 0%;
+    text-decoration: none;
+    border-radius: 31.5px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align:  center;
+    color: #F61B5A;
+
+}
+#HA{
+    position: relative;
+    width: 265.78px;
+    height: 43.2px;
+    left: 40%;
+    top: 0px;
+    font-family: 'Airbnb Cereal App';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1A2530;
+}
+
+#WB{
+position: relative;
+width: 452px;
+height: 28.8px;
+left: 34%;
+top: 5px;
+font-family: 'Airbnb Cereal App';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #707B81;
+}
+
+#il{
+
+    position: absolute;
+    width: 719.75px;
+    height: 815.34px;
+    left: calc(50% - 719.75px/2 - 276.13px);
+    top: calc(50% - 815.34px/2 - 197.33px);
+    background: url(image.png);
+
+}
+.ITde{
+    
+    position: absolute;
+width: 423.54px;
+height: 59.66px;
+left: calc(50% - 423.54px/2 + 359.19px);
+top: calc(50% - 59.66px/2 - 535.4px);
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: -0.022em;
+color: #252C32;
+}
+.det{
+    
+    position: absolute;
+width: 351.57px;
+height: 149.15px;
+left: calc(50% - 351.57px/2 + 323.2px);
+top: calc(50% - 149.15px/2 - 299.25px);
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: -0.006em;
+
+color: #252C32;
+
+
+}
+.layer{
+    position: absolute;
+width: 1397px;
+height: 926px;
+left: 21px;
+top: 109px;
+
+background: rgba(0, 0, 0, 0.025);
+}
+.item_shopBimg{
+    width: 719.75px;
+    height: 800px;
+    left: calc(50% - 700px/2 - 276.13px);
+    top: calc(50% - 800px/2 - 197.33px);
+}
+
+.newiTitle{
+    width: 35px;
+height: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: -0.006em;
+color: #252C32;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 15px;
+
+}
+.productSiTitle{
+    position: relative;
+width: 423.54px;
+height: 59.66px;
+top: calc(50% - 59.66px/2 - 535.4px);
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: -0.022em;
+color: #252C32;
+}
+.prices2{
+    
+position: relative;
+width: 143px;
+height: 30.04px;
+top: calc(50% - 30.04px/2 - 418.43px);
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: -0.006em;
+color: #6E7C87;
+}
+.sinShopCont{
+    position: relative;
+width: 351.57px;
+height: 149.15px;
+top: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: -0.006em;
+color: #252C32;
+}
+.stokPrduct{
+    
+width: 485px;
+height: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: -0.006em;
+color: #252C32;
+flex: none;
+margin: 50px 2px;
+order: 0;
+flex-grow: 1;
+}
+.quantityW {
+    display: inline-block;
+    margin-right: 37px;
+    padding-left: 40px;
+    position: relative;
+}
+.quantityW h4{
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.quantity {
+    border: 1px solid #d0d0d0;
+    height: 30px;
+    margin: 10px 25px;
+    position: relative;
+    text-align: center;
+    width: 122px;
+}
+.quantity input[type="text"] {
+    background: #F61B5A;
+    border: medium none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    height: 38px;
+    left: 0;
+    letter-spacing: 0.52px;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: -1px;
+    width: 48px;
+}
+.quantity .qtyBtn {
+    background: #FE8A00;
+    border: medium none;
+    border-radius: 0;
+    color: #F61B5A;
+    font-size: 20px;
+    font-weight: 300;
+    height: 36px;
+    letter-spacing: 0.8px;
+    position: absolute;
+    transition: all 500ms ease 0s;
+    width: 36px;
+}
+.quantity .qtyBtn.btnMinus {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.quantity .qtyBtn.btnPlus {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#cartButtons{
+    position: absolute;
+width: 260px;
+height: 31px;
+left: 948px;
+top: 700px;
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+color: #F61B5A;
+text-decoration: none;
+
+}
+
+
+.BTN{
+
+    display: inline-block;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    position: relative;
+    width: 41px;
+    height: 40px;
+    left: 5px;
+    top: calc(50% - 40px/2 - 97px);
+    background: #F6F8F9;
+    overflow: hidden;
+    border: none;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.cross {
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+    display: none
+}
+
+.BTN:focus{
+    background: #E5E9EB;
+    border-radius: 6px 6px 6px 6px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
